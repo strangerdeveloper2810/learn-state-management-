@@ -1,9 +1,12 @@
-import Blog from 'Pages/Blog'
+// import Blog from 'Pages/Blog'
+
+import MyBlog from 'Pages/MyBlog'
 
 function App() {
   return (
     <div>
-      <Blog />
+      {/* <Blog /> */}
+      <MyBlog />
     </div>
   )
 }

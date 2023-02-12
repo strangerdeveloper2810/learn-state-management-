@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import blogReducer from './reducer/BlogReducer'
+import MyBlogReducer from './reducer/MyBlogReducer'
 
 export const store = configureStore({
   reducer: {
-    blog: blogReducer
+    blog: blogReducer,
+    myBlog: MyBlogReducer
   }
 })
 
