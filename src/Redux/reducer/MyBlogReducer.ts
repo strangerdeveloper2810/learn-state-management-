@@ -3,10 +3,10 @@ import { MyPost } from './../types/MyBlogType'
 import { createSlice } from '@reduxjs/toolkit'
 
 export interface MyBlogState {
-  Mypost: MyPost[]
+  MyPostList: MyPost[]
 }
 const initialState: MyBlogState = {
-  Mypost: initialMyPostList
+  MyPostList: initialMyPostList
 }
 
 const MyBlogReducer = createSlice({
